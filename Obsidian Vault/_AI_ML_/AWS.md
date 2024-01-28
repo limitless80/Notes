@@ -6,4 +6,4 @@
 - [ ] [[ELB & ASG - Elastic Load Balancing & Auto Scaling Groups]]
 - [ ] [[Amazon S3]]
 - [ ] [[Databases & Analytics]]
-- [ ] [[ECS, Lambda, Batch, Lightsail]] 
+- [ ] [[ECS, Lambda, Batch, Lightsail]]
