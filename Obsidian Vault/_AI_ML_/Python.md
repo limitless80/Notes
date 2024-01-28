@@ -1,4 +1,4 @@
-- [ ]  [[numpy]]
+- [x]  [[numpy]]
 - [ ] [[Pandas]]
 - [ ] [[Matplotlib]]
 - [ ] [[Seaborn]]

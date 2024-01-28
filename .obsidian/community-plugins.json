@@ -1,3 +1,11 @@
 [
-  "obsidian-git"
+  "obsidian-git",
+  "table-editor-obsidian",
+  "calendar",
+  "obsidian-code-block-enhancer",
+  "code-emitter",
+  "cm-editor-syntax-highlight-obsidian",
+  "folder-note-plugin",
+  "obsidian-icon-folder",
+  "obsidian-outliner"
 ]
