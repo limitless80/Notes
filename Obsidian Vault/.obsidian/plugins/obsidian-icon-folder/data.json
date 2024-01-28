@@ -6,9 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "FabAws",
-      "FabPython",
-      "RaSnake"
+      "LiSeparatorVertical",
+      "🐼",
+      "LiLineChart",
+      "LiPi",
+      "FabAws"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -26,5 +28,9 @@
     "iconIdentifier": ":"
   },
   "_AI_ML_/Python.md": "FabPython",
-  "_AI_ML_/AWS.md": "FabAws"
+  "_AI_ML_/AWS.md": "FabAws",
+  "_AI_ML_/python/numpy.md": "LiPi",
+  "_AI_ML_/python/Matplotlib.md": "LiLineChart",
+  "_AI_ML_/python/Pandas.md": "🐼",
+  "_AI_ML_/python/Pytorch.md": "LiSeparatorVertical"
 }
