@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "a219268cbd142c20",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ae351d70c70d820",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8106643cd6bff5c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian Vault/_AI_ML_/python/Pandas.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e8a4e87aa2bdbc4f",
+    "type": "split",
+    "children": [
+      {
+        "id": "9063fd808d5424f9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be36b5093c01d6b4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9dc1e551ab553bd2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c45ab7e156345b75",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "381dbecaba8c0066",
+    "type": "split",
+    "children": [
+      {
+        "id": "dda923309f9ec816",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eea05073cb2f11c4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Obsidian Vault/_AI_ML_/python/Pandas.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5792103c037536bf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Obsidian Vault/_AI_ML_/python/Pandas.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d52460e7e0b94f0a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "ad2ccfbc14f7d73a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Obsidian Vault/_AI_ML_/python/Pandas.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8106643cd6bff5c0",
+  "lastOpenFiles": [
+    "Obsidian Vault/_AI_ML_/python/numpy.md",
+    "Obsidian Vault/_AI_ML_/python/Pandas.md",
+    "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
+    "README.md"
+  ]
+}
