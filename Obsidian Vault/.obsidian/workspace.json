@@ -11,49 +11,16 @@
             "id": "8c1af27c7225f17e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "d13955dc6025b4bb",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "_AI_ML_/python/Matplotlib.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e773585cf245a460",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_AI_ML_/python/numpy.md",
+                "file": "_AI_ML_/python/Seaborn.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
-          },
-          {
-            "id": "eb2e1e7bc5bcb8f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_AI_ML_/AWS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_AI_ML_/python/numpy.md",
+                "file": "_AI_ML_/python/Seaborn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_AI_ML_/python/numpy.md",
+                "file": "_AI_ML_/python/Seaborn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_AI_ML_/python/numpy.md"
+                "file": "_AI_ML_/python/Seaborn.md"
               }
             }
           },
@@ -189,16 +156,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e773585cf245a460",
+  "active": "8c1af27c7225f17e",
   "lastOpenFiles": [
-    "_AI_ML_/Python.md",
+    "_AI_ML_/python/Seaborn.md",
+    "_AI_ML_/AWS.md",
     "_AI_ML_/python/numpy.md",
+    "_AI_ML_/Maths.md",
+    "ECS, Lambda, Batch, Lightsail.md",
+    "Databases & Analytics.md",
+    "Amazon S3.md",
+    "ELB & ASG - Elastic Load Balancing & Auto Scaling Groups.md",
+    "EC2 Instance Storage.md",
+    "EC2 - Elastic Compute Cloud.md",
+    "IAM - Identity and Access Management.md",
+    "_AI_ML_/AWS/What is cloud computing.md",
+    "_AI_ML_/AWS",
+    "_AI_ML_/Python.md",
     "_AI_ML_/python/Pytorch.md",
     "_AI_ML_/python/Pandas.md",
     "_AI_ML_/python/Matplotlib.md",
-    "_AI_ML_/Maths.md",
     "_AI_ML_/python",
-    "_AI_ML_/AWS.md",
     "_AI_ML_/Python",
     "Maths for Machine learning.md",
     "1,2,3,4,5,6,7],[8,9,10,11,12,13,14.md",
