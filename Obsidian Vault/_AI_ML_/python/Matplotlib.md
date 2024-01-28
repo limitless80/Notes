@@ -24,5 +24,5 @@ plt.bar(x, height)
 plt.scatter(x, height)
 #get histogram plot
 plt.hist(x, height)
-		   
+#get hi
 ```
