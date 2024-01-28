@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "b02d63de675c94c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "472e3df678d7778d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c1af27c7225f17e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "d13955dc6025b4bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "numpy.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "eb2e1e7bc5bcb8f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_AI_ML_/AWS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a7dea79c8473f661",
+    "type": "split",
+    "children": [
+      {
+        "id": "7365d9c73e4365e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a9ecb92a7c004a2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "26a5657e8eec1f78",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a734f6ab553801a1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3c03aab387046feb",
+    "type": "split",
+    "children": [
+      {
+        "id": "13b653d93bcb732e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "34e97632f99f4ba6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "numpy.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "67c331f10e16d640",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "numpy.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ae65faee2c5b8443",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "71c306ddd61b05e2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "numpy.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d13955dc6025b4bb",
+  "lastOpenFiles": [
+    "_AI_ML_/Python.md",
+    "_AI_ML_/AWS.md",
+    "1,2,3,4,5,6,7],[8,9,10,11,12,13,14.md",
+    "numpy.md",
+    "Pytorch.md",
+    "Maths for Machine learning.md",
+    "Matplotlib.md",
+    "Pandas.md",
+    "_AI_ML_",
+    "Untitled.canvas",
+    "Untitled 1"
+  ]
+}
