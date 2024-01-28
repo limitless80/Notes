@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mean-Variance-Standard Deviation calculator.md",
+                "file": "Obsidian Vault/_AI_ML_/python/numpy.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mean-Variance-Standard Deviation calculator.md",
+                "file": "Obsidian Vault/_AI_ML_/python/numpy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mean-Variance-Standard Deviation calculator.md",
+                "file": "Obsidian Vault/_AI_ML_/python/numpy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mean-Variance-Standard Deviation calculator.md"
+                "file": "Obsidian Vault/_AI_ML_/python/numpy.md"
               }
             }
           },
@@ -179,13 +179,13 @@
   },
   "active": "ac538189736b61e7",
   "lastOpenFiles": [
+    "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
+    "Obsidian Vault/_AI_ML_/AWS/Databases & Analytics.md",
     "Obsidian Vault/_AI_ML_/python/Seaborn.md",
     "Mean-Variance-Standard Deviation calculator.md",
     "Repository-project-source",
-    "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
     "Obsidian Vault/_AI_ML_/AWS/Amazon S3.md",
     "Obsidian Vault/_AI_ML_/AWS/EC2 - Elastic Compute Cloud.md",
-    "Obsidian Vault/_AI_ML_/AWS/Databases & Analytics.md",
     "Obsidian Vault/_AI_ML_/AWS/What is cloud computing.md",
     "Obsidian Vault/_AI_ML_/AWS",
     "Obsidian Vault/_AI_ML_/AWS/IAM - Identity and Access Management.md",

@@ -5,7 +5,9 @@
     "fontSize": 16,
     "emojiStyle": "none",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "LiMap"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
@@ -20,5 +22,6 @@
     "iconsBackgroundCheckEnabled": false,
     "iconsInNotesEnabled": true,
     "iconIdentifier": ":"
-  }
+  },
+  "Obsidian Vault/_AI_ML_/python/Matplotlib.md": "LiMap"
 }
