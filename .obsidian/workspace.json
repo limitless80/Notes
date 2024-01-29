@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/numpy.md",
+                "file": "Obsidian Vault/_AI_ML_/python/Seaborn.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "381dbecaba8c0066",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/numpy.md",
+                "file": "Obsidian Vault/_AI_ML_/python/Seaborn.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/numpy.md",
+                "file": "Obsidian Vault/_AI_ML_/python/Seaborn.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/numpy.md"
+                "file": "Obsidian Vault/_AI_ML_/python/Seaborn.md"
               }
             }
           },
@@ -156,8 +157,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1bc17f0f876bb320",
+  "active": "be36b5093c01d6b4",
   "lastOpenFiles": [
+    "Obsidian Vault/_AI_ML_/python/numpy.md",
     "Obsidian Vault/_AI_ML_/Python.md",
     "Obsidian Vault/_AI_ML_/Maths.md",
     "Obsidian Vault/_AI_ML_/AWS.md",
@@ -167,7 +169,6 @@
     "Obsidian Vault/_AI_ML_/AWS/Amazon S3.md",
     "Obsidian Vault/_AI_ML_/python/Pytorch.md",
     "Obsidian Vault/_AI_ML_/python/Pandas.md",
-    "Obsidian Vault/_AI_ML_/python/numpy.md",
     "Repository-project-source/Demographic Data Analyzer.md",
     "Repository-project-source/Mean-Variance-Standard Deviation calculator.md",
     "Obsidian Vault/_AI_ML_/AWS/Databases & Analytics.md",
