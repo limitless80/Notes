@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9ae351d70c70d820",
+        "id": "c784b46b99d0f2cf",
         "type": "tabs",
         "children": [
           {
-            "id": "8106643cd6bff5c0",
+            "id": "1bc17f0f876bb320",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Seaborn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ac538189736b61e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Repository-project-source/Mean-Variance-Standard Deviation calculator.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc2d69774bb3817a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Repository-project-source/Demographic Data Analyzer.md",
+                "file": "Obsidian Vault/_AI_ML_/AWS/What is cloud computing.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "381dbecaba8c0066",
@@ -110,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Repository-project-source/Demographic Data Analyzer.md",
+                "file": "Obsidian Vault/_AI_ML_/AWS/What is cloud computing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Repository-project-source/Demographic Data Analyzer.md",
+                "file": "Obsidian Vault/_AI_ML_/AWS/What is cloud computing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Repository-project-source/Demographic Data Analyzer.md"
+                "file": "Obsidian Vault/_AI_ML_/AWS/What is cloud computing.md"
               }
             }
           },
@@ -161,17 +137,9 @@
               "type": "calendar",
               "state": {}
             }
-          },
-          {
-            "id": "2c336d5123246401",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -189,18 +157,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "be36b5093c01d6b4",
+  "active": "bbcb0c6d3c8f0e30",
   "lastOpenFiles": [
-    "Repository-project-source/Mean-Variance-Standard Deviation calculator.md",
-    "Repository-project-source/Demographic Data Analyzer.md",
+    "Obsidian Vault/_AI_ML_/python/Seaborn.md",
+    "Obsidian Vault/_AI_ML_/AWS/Amazon S3.md",
+    "Obsidian Vault/_AI_ML_/AWS/What is cloud computing.md",
+    "Obsidian Vault/_AI_ML_/python/Pytorch.md",
+    "Obsidian Vault/_AI_ML_/python/Pandas.md",
     "Obsidian Vault/_AI_ML_/python/numpy.md",
     "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
+    "Repository-project-source/Demographic Data Analyzer.md",
+    "Repository-project-source/Mean-Variance-Standard Deviation calculator.md",
     "Obsidian Vault/_AI_ML_/AWS/Databases & Analytics.md",
-    "Obsidian Vault/_AI_ML_/python/Seaborn.md",
     "Repository-project-source",
-    "Obsidian Vault/_AI_ML_/AWS/Amazon S3.md",
     "Obsidian Vault/_AI_ML_/AWS/EC2 - Elastic Compute Cloud.md",
-    "Obsidian Vault/_AI_ML_/AWS/What is cloud computing.md",
     "Obsidian Vault/_AI_ML_/AWS",
     "Obsidian Vault/_AI_ML_/AWS/IAM - Identity and Access Management.md",
     "Obsidian Vault/_AI_ML_/AWS/ELB & ASG - Elastic Load Balancing & Auto Scaling Groups.md",
@@ -208,7 +178,6 @@
     "Obsidian Vault/_AI_ML_/AWS/EC2 Instance Storage.md",
     "Obsidian Vault/_AI_ML_/Python.md",
     "Obsidian Vault/_AI_ML_/AWS/Maths for Machine learning.md",
-    "README.md",
-    "Obsidian Vault/_AI_ML_/python/Pandas.md"
+    "README.md"
   ]
 }
