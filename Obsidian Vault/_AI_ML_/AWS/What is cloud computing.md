@@ -50,4 +50,34 @@ As many of us use Gmail which store our email in google cloud.
 **Scalability**,
 **Elasticity**,
 **Agility**.
+`AWS-MAP`
+![](https://i.imgur.com/DwO0ons.png)
+Above image shows the AWS Infrastructure Region.
+So The question will be how to choose the region, 
+it all depends on three major Factor:
+***The governence rule***- Some government want the data to be local then you have to choose the local region.
+***Service availability***- The AWS doesn't provide all its service to all the region, so choose the region if AWS of that region provide the service you needed.
+***Proximity***- So to reduce lag between the customer and your application which means([providing low latency](https://www.mirrorfly.com/blog/what-is-low-latency/)) choose the region based on targeted user/customer region
+***Pricing***- So each region has different pricing range.
 
+`AWS Global services`
+***Identity and Access Management***,
+***Route 53(DNS service***,
+***Web Application Firewall***.
+
+`AWS Region-scoped services`
+***[Amazon EC2](https://aws.amazon.com/ec2/) (IFaaS)***: 
+Provide buildig block for cloud IT.
+Provides networking, computers, data storage.
+Highest level of flexibility.
+easy parallel with traditional on premises IT.
+[***Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/) (PaaS)***:
+Removes the need for your organization to manage the underlying infrastructure.
+Focus on the deployment and management of your application.
+[***Lambda](https://aws.amazon.com/lambda/) (FaaS)***, 
+***[Rekognition](https://aws.amazon.com/rekognition) (SaaS)***.
+  
+`As-a-Services`
+![](https://i.imgur.com/DCnzJKY.png)
+Blue-Managed by local system
+Orange-Managed by AWS
