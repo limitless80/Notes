@@ -12,5 +12,5 @@ So for a user to get access to a specific service in AWS, the user is provided w
 
 ![](https://i.imgur.com/1jeditG.png)
 
-In AWS there is a principle that "Don't provide permission to user more than he needed", for security reason, cost to pay to AWS.
+In AWS there is a principle that "Don't provide permission to user more than he needed", for security reason and cost to pay to AWS.
 ****
