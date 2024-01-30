@@ -80,4 +80,4 @@ Focus on the deployment and management of your application.
 `As-a-Services`
 ![](https://i.imgur.com/DCnzJKY.png)
 Blue-Managed by local system
-Orange-Managed by AWS
+Orange-Managed by AWS service
