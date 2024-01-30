@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c784b46b99d0f2cf",
+        "id": "464ccefbdbccd2be",
         "type": "tabs",
         "children": [
           {
-            "id": "1bc17f0f876bb320",
+            "id": "c512d00f56a3edcc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/AWS/What is cloud computing.md",
+                "file": "Obsidian Vault/_AI_ML_/Python.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "381dbecaba8c0066",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/AWS/What is cloud computing.md",
+                "file": "Obsidian Vault/_AI_ML_/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/AWS/What is cloud computing.md",
+                "file": "Obsidian Vault/_AI_ML_/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/AWS/What is cloud computing.md"
+                "file": "Obsidian Vault/_AI_ML_/Python.md"
               }
             }
           },
@@ -158,15 +157,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1bc17f0f876bb320",
+  "active": "c512d00f56a3edcc",
   "lastOpenFiles": [
+    "Obsidian Vault/_AI_ML_/AWS.md",
+    "Obsidian Vault/_AI_ML_/Maths.md",
+    "Obsidian Vault/Maths for Machine learning.md",
+    "Obsidian Vault/_AI_ML_/AWS/What is cloud computing.md",
     "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
     "Obsidian Vault/_AI_ML_/python/Seaborn.md",
-    "Obsidian Vault/_AI_ML_/AWS/What is cloud computing.md",
     "Obsidian Vault/_AI_ML_/python/numpy.md",
     "Obsidian Vault/_AI_ML_/Python.md",
-    "Obsidian Vault/_AI_ML_/Maths.md",
-    "Obsidian Vault/_AI_ML_/AWS.md",
     "Obsidian Vault/_AI_ML_/AWS/Amazon S3.md",
     "Obsidian Vault/_AI_ML_/python/Pytorch.md",
     "Obsidian Vault/_AI_ML_/python/Pandas.md",
@@ -180,7 +180,6 @@
     "Obsidian Vault/_AI_ML_/AWS/ELB & ASG - Elastic Load Balancing & Auto Scaling Groups.md",
     "Obsidian Vault/_AI_ML_/AWS/ECS, Lambda, Batch, Lightsail.md",
     "Obsidian Vault/_AI_ML_/AWS/EC2 Instance Storage.md",
-    "Obsidian Vault/_AI_ML_/AWS/Maths for Machine learning.md",
     "README.md"
   ]
 }

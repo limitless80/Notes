@@ -19,14 +19,14 @@ We can ***provision exactly the  right type and size of computing*** resources w
 ```AWS```   
 
 ![](https://i.imgur.com/YC1dBMm.png)
-In the **Cloud market AWS is one of prominent player***, which owns and maintains the network-connected hardware required for these application services.
+In the **Cloud market AWS is one of prominent player***, which owns and maintains the network-connected hardware, required for these application services.
 
 ```WHY```
-As Maintaining and owning a data center, cost you a lot. like owning of Hardware component like **GPU, SSD, CPU***. renting the place, electricity bill, maintaining them would cause a headache. so
+As Maintaining and owning a data center, cost you a lot. Owning of Hardware component like **GPU, SSD, CPU***. renting the place, electricity bill, maintaining them, would lead to a headache. so
 to solve all the above problem the Cloud platform like AWS, Azure, Google cloud. provides the services you required on demand with the offer of ***pay-as-you-go***. 
 
 ```Usecase```
-As many of us use Gmail which store our email in google cloud.
+As many of us, use Gmail which store our email in google cloud.
 ***Dropbox*** provides *cloud* *storage* *services*. [originally built on AWS](https://aws.amazon.com/solutions/case-studies/dropbox-s3/)
 ***NETFLIX*** provide *Video on demand*. [Built on AWS](https://aws.amazon.com/solutions/case-studies/innovators/netflix/)  
 
@@ -60,6 +60,11 @@ it all depends on three major Factor:
 ***Proximity***- So to reduce lag between the customer and your application which means([providing low latency](https://www.mirrorfly.com/blog/what-is-low-latency/)) choose the region based on targeted user/customer region
 ***Pricing***- So each region has different pricing range.
 
+`As-a-Services`
+![](https://i.imgur.com/DCnzJKY.png)
+Blue-Managed by local system
+Orange-Managed by AWS service
+
 `AWS Global services`
 ***Identity and Access Management***,
 ***Route 53(DNS service***,
@@ -67,7 +72,7 @@ it all depends on three major Factor:
 
 `AWS Region-scoped services`
 ***[Amazon EC2](https://aws.amazon.com/ec2/) (IFaaS)***: 
-Provide buildig block for cloud IT.
+Provide building block for cloud IT.
 Provides networking, computers, data storage.
 Highest level of flexibility.
 easy parallel with traditional on premises IT.
@@ -77,7 +82,8 @@ Focus on the deployment and management of your application.
 [***Lambda](https://aws.amazon.com/lambda/) (FaaS)***, 
 ***[Rekognition](https://aws.amazon.com/rekognition) (SaaS)***.
   
-`As-a-Services`
-![](https://i.imgur.com/DCnzJKY.png)
-Blue-Managed by local system
-Orange-Managed by AWS service
+`Pricing of the cloud`
+ ***Compute***: Pay for compute time
+ ***Storage***: Pay for data stored in the Cloud
+ ***Data transfer***: Pay only for the data transfer out of the loud(free in)
+ 

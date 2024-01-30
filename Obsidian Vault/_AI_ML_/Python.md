@@ -1,4 +1,4 @@
-- [x]  [[numpy]]
+- [x] [[numpy]] ✅ 2024-01-30
 - [ ] [[Pandas]]
 - [ ] [[Matplotlib]]
 - [ ] [[Seaborn]]
