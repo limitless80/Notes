@@ -66,7 +66,7 @@ Blue-Managed by local system
 Orange-Managed by AWS service
 
 `AWS Global services`
-***Identity and Access Management***,
+***[Identity and Access Management](obsidian://open?vault=Notes&file=Obsidian%20Vault%2F_AI_ML_%2FAWS%2FIAM%20-%20Identity%20and%20Access%20Management)***,
 ***Route 53(DNS service***,
 ***Web Application Firewall***.
 

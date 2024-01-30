@@ -72,7 +72,7 @@ np.matmul(a,b)
 c = np.identity(3)
 np.linalg.det(c)
 1.0
-## Reference docs (https://docs.scipy.org/doc/numpy/reference/routines.linalg.html)
+# Reference docs (https://docs.scipy.org/doc/numpy/reference/routines.linalg.html)
 
 # Determinant
 # Trace
