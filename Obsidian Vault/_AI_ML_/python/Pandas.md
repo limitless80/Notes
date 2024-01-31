@@ -43,3 +43,5 @@ df.groupby['column'] #used to do stastics by grouping up similar rows in a given
 
 
 ```
+
+[[Stastics]]
