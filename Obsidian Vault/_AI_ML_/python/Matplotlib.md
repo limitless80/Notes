@@ -28,6 +28,8 @@ plt.bar(x, height)
 plt.scatter(x, height)
 #get histogram plot
 plt.hist(x, height)
+#get boxplot
+plt.boxplot(values)
 ```
 labels
 ![](https://i.imgur.com/BPT2iXU.png)
