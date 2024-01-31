@@ -11,8 +11,13 @@
             "id": "8c1af27c7225f17e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_AI_ML_/python/Pytorch.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_AI_ML_/python/Pytorch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_AI_ML_/python/Pytorch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_AI_ML_/python/Pytorch.md"
+              }
             }
           },
           {
@@ -147,8 +156,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9a9ecb92a7c004a2",
+  "active": "8c1af27c7225f17e",
   "lastOpenFiles": [
+    "_AI_ML_/Python.md",
     "_AI_ML_/python/Seaborn.md",
     "_AI_ML_/python/Matplotlib.md",
     "_AI_ML_/AWS/Maths for Machine learning.md",
@@ -174,7 +184,6 @@
     "_AI_ML_/Maths.md",
     "_AI_ML_/AWS/What is cloud computing.md",
     "_AI_ML_/AWS",
-    "_AI_ML_/Python.md",
     "_AI_ML_/python/Pytorch.md",
     "_AI_ML_/python/Pandas.md",
     "_AI_ML_/python",

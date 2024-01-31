@@ -1,41 +1,35 @@
 {
   "main": {
-    "id": "a219268cbd142c20",
+    "id": "99ca5c9480beb1f2",
     "type": "split",
     "children": [
       {
-        "id": "464ccefbdbccd2be",
+        "id": "feb1f132dffc984a",
         "type": "tabs",
         "children": [
           {
-            "id": "c512d00f56a3edcc",
+            "id": "86b21be59e0d9b37",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Pytorch.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "e8a4e87aa2bdbc4f",
+    "id": "98162e26a5f964d4",
     "type": "split",
     "children": [
       {
-        "id": "9063fd808d5424f9",
+        "id": "919a96d9608b7e49",
         "type": "tabs",
         "children": [
           {
-            "id": "be36b5093c01d6b4",
+            "id": "ae6abaf837d1a642",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -45,7 +39,7 @@
             }
           },
           {
-            "id": "9dc1e551ab553bd2",
+            "id": "51d3997a505f1234",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -60,7 +54,7 @@
             }
           },
           {
-            "id": "c45ab7e156345b75",
+            "id": "8005b2a28e88e47a",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "381dbecaba8c0066",
+    "id": "91f735856345362d",
     "type": "split",
     "children": [
       {
-        "id": "dda923309f9ec816",
+        "id": "0f5652c4404d500b",
         "type": "tabs",
         "children": [
           {
-            "id": "eea05073cb2f11c4",
+            "id": "567e9c8f444359cb",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Pytorch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,19 +92,18 @@
             }
           },
           {
-            "id": "5792103c037536bf",
+            "id": "33e59336540db359",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Pytorch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "d52460e7e0b94f0a",
+            "id": "f507220752b299f9",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -122,25 +114,14 @@
             }
           },
           {
-            "id": "ad2ccfbc14f7d73a",
+            "id": "b0a13970f15aead6",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Pytorch.md"
-              }
-            }
-          },
-          {
-            "id": "bbcb0c6d3c8f0e30",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -154,36 +135,9 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "c512d00f56a3edcc",
-  "lastOpenFiles": [
-    "Obsidian Vault/_AI_ML_/Python.md",
-    "Obsidian Vault/_AI_ML_/AWS.md",
-    "Obsidian Vault/_AI_ML_/python/Pandas.md",
-    "Obsidian Vault/_AI_ML_/python/Pytorch.md",
-    "Obsidian Vault/_AI_ML_/AML.md",
-    "README.md",
-    "Obsidian Vault/_AI_ML_/Math/Stastics.md",
-    "Obsidian Vault/_AI_ML_/Math",
-    "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
-    "Obsidian Vault/_AI_ML_/python/numpy.md",
-    "Obsidian Vault/_AI_ML_/AWS/IAM - Identity and Access Management.md",
-    "Obsidian Vault/_AI_ML_/AWS/What is cloud computing.md",
-    "Obsidian Vault/_AI_ML_/Maths.md",
-    "Obsidian Vault/Maths for Machine learning.md",
-    "Obsidian Vault/_AI_ML_/python/Seaborn.md",
-    "Obsidian Vault/_AI_ML_/AWS/Amazon S3.md",
-    "Repository-project-source/Demographic Data Analyzer.md",
-    "Repository-project-source/Mean-Variance-Standard Deviation calculator.md",
-    "Obsidian Vault/_AI_ML_/AWS/Databases & Analytics.md",
-    "Repository-project-source",
-    "Obsidian Vault/_AI_ML_/AWS/EC2 - Elastic Compute Cloud.md",
-    "Obsidian Vault/_AI_ML_/AWS",
-    "Obsidian Vault/_AI_ML_/AWS/ELB & ASG - Elastic Load Balancing & Auto Scaling Groups.md",
-    "Obsidian Vault/_AI_ML_/AWS/ECS, Lambda, Batch, Lightsail.md",
-    "Obsidian Vault/_AI_ML_/AWS/EC2 Instance Storage.md"
-  ]
+  "active": "86b21be59e0d9b37",
+  "lastOpenFiles": []
 }
