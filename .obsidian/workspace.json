@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Pandas.md",
+                "file": "Obsidian Vault/_AI_ML_/python/Pytorch.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Pandas.md",
+                "file": "Obsidian Vault/_AI_ML_/python/Pytorch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Pandas.md",
+                "file": "Obsidian Vault/_AI_ML_/python/Pytorch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Pandas.md"
+                "file": "Obsidian Vault/_AI_ML_/python/Pytorch.md"
               }
             }
           },
@@ -159,16 +159,16 @@
   },
   "active": "c512d00f56a3edcc",
   "lastOpenFiles": [
+    "Obsidian Vault/_AI_ML_/python/numpy.md",
+    "Obsidian Vault/_AI_ML_/python/Pandas.md",
     "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
     "Obsidian Vault/_AI_ML_/Python.md",
     "Obsidian Vault/_AI_ML_/AML.md",
     "README.md",
     "Obsidian Vault/_AI_ML_/AWS/IAM - Identity and Access Management.md",
     "Obsidian Vault/_AI_ML_/AWS.md",
-    "Obsidian Vault/_AI_ML_/python/numpy.md",
     "Obsidian Vault/_AI_ML_/AWS/What is cloud computing.md",
     "Obsidian Vault/_AI_ML_/python/Pytorch.md",
-    "Obsidian Vault/_AI_ML_/python/Pandas.md",
     "Obsidian Vault/_AI_ML_/Maths.md",
     "Obsidian Vault/Maths for Machine learning.md",
     "Obsidian Vault/_AI_ML_/python/Seaborn.md",
