@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/AWS/IAM - Identity and Access Management.md",
+                "file": "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
                 "mode": "source",
                 "source": false
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "381dbecaba8c0066",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/AWS/IAM - Identity and Access Management.md",
+                "file": "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/AWS/IAM - Identity and Access Management.md",
+                "file": "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/AWS/IAM - Identity and Access Management.md"
+                "file": "Obsidian Vault/_AI_ML_/python/Matplotlib.md"
               }
             }
           },
@@ -159,11 +160,12 @@
   },
   "active": "c512d00f56a3edcc",
   "lastOpenFiles": [
-    "Obsidian Vault/_AI_ML_/AWS.md",
-    "Obsidian Vault/_AI_ML_/AML.md",
-    "Obsidian Vault/_AI_ML_/AWS/IAM - Identity and Access Management.md",
-    "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
     "Obsidian Vault/_AI_ML_/Python.md",
+    "Obsidian Vault/_AI_ML_/AML.md",
+    "README.md",
+    "Obsidian Vault/_AI_ML_/AWS/IAM - Identity and Access Management.md",
+    "Obsidian Vault/_AI_ML_/AWS.md",
+    "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
     "Obsidian Vault/_AI_ML_/python/numpy.md",
     "Obsidian Vault/_AI_ML_/AWS/What is cloud computing.md",
     "Obsidian Vault/_AI_ML_/python/Pytorch.md",
@@ -180,7 +182,6 @@
     "Obsidian Vault/_AI_ML_/AWS",
     "Obsidian Vault/_AI_ML_/AWS/ELB & ASG - Elastic Load Balancing & Auto Scaling Groups.md",
     "Obsidian Vault/_AI_ML_/AWS/ECS, Lambda, Batch, Lightsail.md",
-    "Obsidian Vault/_AI_ML_/AWS/EC2 Instance Storage.md",
-    "README.md"
+    "Obsidian Vault/_AI_ML_/AWS/EC2 Instance Storage.md"
   ]
 }
