@@ -14,6 +14,13 @@ variable.ndim
 #get tensor from numpy
 tr.from_numpy(variable_of_numpy)
 #get a tensor of ones
-tr.
+tr.ones([matrix_row,row,colume])
+#get a tensor of ones with different variable shape
+tr.ones_like(variable_name)
+#get a tensor of zeroes
+tr.zeroes
+
+
+
 ```
 **[Dtypes documentation](https://pytorch.org/docs/stable/tensors.html)**

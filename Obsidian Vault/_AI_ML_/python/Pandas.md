@@ -1,17 +1,18 @@
 ```python
-#import pandas
+#get pandas
 import pandas as pd
 
-#Series is a 1d labeled array
-series = pd.Series([1,2,3,4,strings,other_data_types]) #don't forget that 'S' is capital
+#get Series for 1D labeled array
+series = pd.Series([1,2,3,4,strings,other_data_types])
 
-#Dataframe is a 2d array in the form of a table
+#get DataFrame for 2d array in the form of a table
 df = pd.DataFrame(series,index=[1,2,3,4,5])
 
-#convert a Series to a Dataframe
+#get Series in to a Dataframe
 df = series.to_frame()
 
-#Reading data
+#get data from csv file
+pd.read_csv("file_location")
 df.head(n) #list the first n files; defaults to 5
 df.tail(n) #list the last n files; defaults to 5
 
@@ -39,7 +40,8 @@ df['column'].kurt()
 
 df.groupby['column'] #used to do stastics by grouping up similar rows in a given column
 
-
+#to get unique elements in the Data
+data_variable.element_of_data.unique()
 
 
 ```

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Pytorch.md",
+                "file": "Obsidian Vault/_AI_ML_/python/Pandas.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -71,7 +71,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "381dbecaba8c0066",
@@ -87,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Pytorch.md",
+                "file": "Obsidian Vault/_AI_ML_/python/Pandas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Pytorch.md",
+                "file": "Obsidian Vault/_AI_ML_/python/Pandas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Pytorch.md"
+                "file": "Obsidian Vault/_AI_ML_/python/Pandas.md"
               }
             }
           },
@@ -160,13 +161,14 @@
   },
   "active": "c512d00f56a3edcc",
   "lastOpenFiles": [
-    "Obsidian Vault/_AI_ML_/Python.md",
-    "Obsidian Vault/_AI_ML_/AWS.md",
-    "Obsidian Vault/_AI_ML_/python/Pandas.md",
     "Obsidian Vault/_AI_ML_/python/Pytorch.md",
+    "Obsidian Vault/_AI_ML_/python/Seaborn.md",
+    "Obsidian Vault/_AI_ML_/Python.md",
+    "Obsidian Vault/_AI_ML_/Math/Stastics.md",
+    "Obsidian Vault/_AI_ML_/python/Pandas.md",
+    "Obsidian Vault/_AI_ML_/AWS.md",
     "Obsidian Vault/_AI_ML_/AML.md",
     "README.md",
-    "Obsidian Vault/_AI_ML_/Math/Stastics.md",
     "Obsidian Vault/_AI_ML_/Math",
     "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
     "Obsidian Vault/_AI_ML_/python/numpy.md",
@@ -174,7 +176,6 @@
     "Obsidian Vault/_AI_ML_/AWS/What is cloud computing.md",
     "Obsidian Vault/_AI_ML_/Maths.md",
     "Obsidian Vault/Maths for Machine learning.md",
-    "Obsidian Vault/_AI_ML_/python/Seaborn.md",
     "Obsidian Vault/_AI_ML_/AWS/Amazon S3.md",
     "Repository-project-source/Demographic Data Analyzer.md",
     "Repository-project-source/Mean-Variance-Standard Deviation calculator.md",

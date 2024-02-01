@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_AI_ML_/python/Pytorch.md",
+                "file": "_AI_ML_/Python.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_AI_ML_/python/Pytorch.md",
+                "file": "_AI_ML_/Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_AI_ML_/python/Pytorch.md",
+                "file": "_AI_ML_/Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_AI_ML_/python/Pytorch.md"
+                "file": "_AI_ML_/Python.md"
               }
             }
           },
@@ -158,6 +158,9 @@
   },
   "active": "8c1af27c7225f17e",
   "lastOpenFiles": [
+    "_AI_ML_/AWS.md",
+    "_AI_ML_/Maths.md",
+    "_AI_ML_/python/Pytorch.md",
     "_AI_ML_/Python.md",
     "_AI_ML_/python/Seaborn.md",
     "_AI_ML_/python/Matplotlib.md",
@@ -179,12 +182,9 @@
     "Amazon S3.md",
     "Pasted image 20240128204757.png",
     "Pasted image 20240128204730.png",
-    "_AI_ML_/AWS.md",
     "_AI_ML_/python/numpy.md",
-    "_AI_ML_/Maths.md",
     "_AI_ML_/AWS/What is cloud computing.md",
     "_AI_ML_/AWS",
-    "_AI_ML_/python/Pytorch.md",
     "_AI_ML_/python/Pandas.md",
     "_AI_ML_/python",
     "_AI_ML_/Python",
