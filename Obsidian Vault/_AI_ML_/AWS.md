@@ -1,6 +1,6 @@
 # cloud Practitioner 
-- [ ] [[What is cloud computing]]
-- [ ] [[IAM - Identity and Access Management]]
+- [x] [[What is cloud computing]] ✅ 2024-02-03
+- [x] [[IAM - Identity and Access Management]] ✅ 2024-02-03
 - [ ] [[EC2 - Elastic Compute Cloud]]
 - [ ] [[EC2 Instance Storage]]
 - [ ] [[ELB & ASG - Elastic Load Balancing & Auto Scaling Groups]]

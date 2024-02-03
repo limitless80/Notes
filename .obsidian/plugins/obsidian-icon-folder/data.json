@@ -6,11 +6,11 @@
     "emojiStyle": "none",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "TiMathIntegral",
+      "TiLine",
       "LiPi",
-      "FabPython",
-      "LiLayoutTemplate",
-      "FabAws",
-      "FabSellcast"
+      "TiLayoutDistributeVertical",
+      "FabGripfire"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -28,11 +28,9 @@
     "iconIdentifier": ":"
   },
   "Obsidian Vault/_AI_ML_/python/Matplotlib.md": "LiMap",
+  "Obsidian Vault/_AI_ML_/python/Pytorch.md": "FabGripfire",
+  "Obsidian Vault/_AI_ML_/python/Pandas.md": "TiLayoutDistributeVertical",
   "Obsidian Vault/_AI_ML_/python/numpy.md": "LiPi",
-  "Obsidian Vault/_AI_ML_/python/Pandas.md": "LiAlignVerticalSpaceBetween",
-  "Obsidian Vault/_AI_ML_/python/Pytorch.md": "LiTornado",
-  "Obsidian Vault/_AI_ML_/python/Seaborn.md": "FabSellcast",
-  "Obsidian Vault/_AI_ML_/AWS.md": "FabAws",
-  "Obsidian Vault/_AI_ML_/Maths.md": "LiLayoutTemplate",
-  "Obsidian Vault/_AI_ML_/Python.md": "FabPython"
+  "Obsidian Vault/_AI_ML_/python/Scikit-learn.md": "TiLine",
+  "Obsidian Vault/_AI_ML_/python/Seaborn.md": "TiMathIntegral"
 }

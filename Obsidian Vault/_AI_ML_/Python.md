@@ -1,6 +1,6 @@
-- [ ] [[numpy]]
+- [x] [[numpy]] ✅ 2024-02-03
 - [ ] [[Pandas]]
-- [ ] [[Matplotlib]]
+- [x] [[Matplotlib]] ✅ 2024-02-03
 - [ ] [[Seaborn]]
 - [ ] [[Scikit-learn]]
 - [ ] [[Pytorch]]
