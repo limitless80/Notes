@@ -4,22 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "c784b46b99d0f2cf",
+        "id": "464ccefbdbccd2be",
         "type": "tabs",
         "children": [
           {
-            "id": "1bc17f0f876bb320",
+            "id": "efd962ff812d5692",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Seaborn.md",
+                "file": "Obsidian Vault/_AI_ML_/python/Pytorch.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -69,7 +71,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "381dbecaba8c0066",
@@ -85,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Seaborn.md",
+                "file": "Obsidian Vault/_AI_ML_/python/Pytorch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Seaborn.md",
+                "file": "Obsidian Vault/_AI_ML_/python/Pytorch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Seaborn.md"
+                "file": "Obsidian Vault/_AI_ML_/python/Pytorch.md"
               }
             }
           },
@@ -156,34 +159,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "be36b5093c01d6b4",
+  "active": "efd962ff812d5692",
   "lastOpenFiles": [
+    "Obsidian Vault/_AI_ML_/Python.md",
+    "Machine Learning.md",
+    "Obsidian Vault/_AI_ML_/AML.md",
+    "Obsidian Vault/Maths for Machine learning.md",
+    "Obsidian Vault/_AI_ML_/AWS/IAM - Identity and Access Management.md",
     "Obsidian Vault/_AI_ML_/python/Scikit-learn.md",
-    "Obsidian Vault/_AI_ML_/python/numpy.md",
+    "Obsidian Vault/_AI_ML_/AWS.md",
     "Obsidian Vault/_AI_ML_/python/Pandas.md",
     "Obsidian Vault/_AI_ML_/python/Pytorch.md",
-    "Obsidian Vault/_AI_ML_/Python.md",
-    "Obsidian Vault/_AI_ML_/AML.md",
-    "Obsidian Vault/_AI_ML_/AWS.md",
-    "Obsidian Vault/_AI_ML_/Math/Stastics.md",
-    "Obsidian Vault/_AI_ML_/AWS/Amazon S3.md",
-    "Obsidian Vault/_AI_ML_/AWS/Databases & Analytics.md",
-    "Obsidian Vault/_AI_ML_/AWS/EC2 - Elastic Compute Cloud.md",
-    "Obsidian Vault/_AI_ML_/AWS/EC2 Instance Storage.md",
-    "Obsidian Vault/_AI_ML_/AWS/ECS, Lambda, Batch, Lightsail.md",
-    "Obsidian Vault/_AI_ML_/AWS/ELB & ASG - Elastic Load Balancing & Auto Scaling Groups.md",
-    "Obsidian Vault/_AI_ML_/AWS/What is cloud computing.md",
-    "Obsidian Vault/_AI_ML_/AWS/IAM - Identity and Access Management.md",
     "Obsidian Vault/_AI_ML_/python/Seaborn.md",
+    "Obsidian Vault/_AI_ML_/Math/Stastics.md",
+    "README.md",
     "Obsidian Vault/_AI_ML_/Math",
-    "Obsidian Vault/Maths for Machine learning.md",
-    "Obsidian Vault/_AI_ML_/Maths.md",
     "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
+    "Obsidian Vault/_AI_ML_/python/numpy.md",
+    "Obsidian Vault/_AI_ML_/AWS/What is cloud computing.md",
+    "Obsidian Vault/_AI_ML_/Maths.md",
+    "Obsidian Vault/_AI_ML_/AWS/Amazon S3.md",
     "Repository-project-source/Demographic Data Analyzer.md",
     "Repository-project-source/Mean-Variance-Standard Deviation calculator.md",
+    "Obsidian Vault/_AI_ML_/AWS/Databases & Analytics.md",
     "Repository-project-source",
+    "Obsidian Vault/_AI_ML_/AWS/EC2 - Elastic Compute Cloud.md",
     "Obsidian Vault/_AI_ML_/AWS",
-    "Obsidian Vault/_AI_ML_/AWS/Maths for Machine learning.md",
-    "README.md"
+    "Obsidian Vault/_AI_ML_/AWS/ELB & ASG - Elastic Load Balancing & Auto Scaling Groups.md",
+    "Obsidian Vault/_AI_ML_/AWS/ECS, Lambda, Batch, Lightsail.md",
+    "Obsidian Vault/_AI_ML_/AWS/EC2 Instance Storage.md"
   ]
 }

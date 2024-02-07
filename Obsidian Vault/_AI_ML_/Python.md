@@ -1,5 +1,5 @@
 - [x] [[numpy]] ✅ 2024-02-03
-- [ ] [[Pandas]]
+- [x] [[Pandas]] ✅ 2024-02-03
 - [x] [[Matplotlib]] ✅ 2024-02-03
 - [ ] [[Seaborn]]
 - [ ] [[Scikit-learn]]
