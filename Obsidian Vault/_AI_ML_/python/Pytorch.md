@@ -44,6 +44,20 @@ variable*variable
 #get matrixmultiplication of tensor
 variable.matmul(variable.T)
 variable@variable
+#get index of element which has max element
+tr.argmax(variable)
+#get all single dimension removed from targeted sensor
+variable.squeeze(dim=0)
+#get undo the prvious process
+variable.unsqueeze(dim=[1,0])
+#get the tensor element to ge permute
+tr.permute(variable, (2,0,1), dim=())
+ 
+
+
+
 
 ```
 **[Dtypes documentation](https://pytorch.org/docs/stable/tensors.html)**
+Indexing in Pytorch is similar to numpy 
+[Pytorch Basic GIT documentation](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/00_pytorch_fundamentals.ipynb)
