@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Pytorch.md",
+                "file": "Machine Learning.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -71,8 +71,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "381dbecaba8c0066",
@@ -88,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Pytorch.md",
+                "file": "Machine Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Pytorch.md",
+                "file": "Machine Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Pytorch.md"
+                "file": "Machine Learning.md"
               }
             }
           },
@@ -161,9 +160,9 @@
   },
   "active": "06246f1060c96770",
   "lastOpenFiles": [
+    "Obsidian Vault/_AI_ML_/python/Pytorch.md",
     "Obsidian Vault/_AI_ML_/Python.md",
     "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
-    "Obsidian Vault/_AI_ML_/python/Pytorch.md",
     "Obsidian Vault/_AI_ML_/AML.md",
     "Repository-project-source/Mean-Variance-Standard Deviation calculator.md",
     "Repository-project-source/Demographic Data Analyzer.md",

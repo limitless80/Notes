@@ -1,6 +1,8 @@
 ```python
 #get pytorch 
 import torch as tr
+#get nn module(it is the building block of neural network)
+from torch import nn.Module
 #get vector
 tr.tensor(1)
 #get 1D array
@@ -68,6 +70,8 @@ tr.stack([vaiable_list],dim=[0->for row, 1->for column])
 ~nvidia.smi
 #get your device-set 
 "cuda" if torch.cuda.is_available() else "cpu"
+----the above things are basic of pytorch----
+----The below thing will be Advance topic----
 
 ```
 **[Dtypes documentation](https://pytorch.org/docs/stable/tensors.html)**
