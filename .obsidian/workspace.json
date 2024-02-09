@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "464ccefbdbccd2be",
+        "id": "23b24b06bd46feda",
         "type": "tabs",
         "children": [
           {
-            "id": "efd962ff812d5692",
+            "id": "06246f1060c96770",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -159,9 +159,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "efd962ff812d5692",
+  "active": "06246f1060c96770",
   "lastOpenFiles": [
     "Obsidian Vault/_AI_ML_/Python.md",
+    "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
+    "Obsidian Vault/_AI_ML_/python/Pytorch.md",
     "Obsidian Vault/_AI_ML_/AML.md",
     "Repository-project-source/Mean-Variance-Standard Deviation calculator.md",
     "Repository-project-source/Demographic Data Analyzer.md",
@@ -172,7 +174,6 @@
     "Obsidian Vault/_AI_ML_/AWS.md",
     "Obsidian Vault/_AI_ML_/AWS/ELB & ASG - Elastic Load Balancing & Auto Scaling Groups.md",
     "Obsidian Vault/_AI_ML_/AWS/IAM - Identity and Access Management.md",
-    "Obsidian Vault/_AI_ML_/python/Pytorch.md",
     "Obsidian Vault/_AI_ML_/python/python basics/variables and data types.md",
     "Obsidian Vault/_AI_ML_/python/python basics/The Python interpreter.md",
     "Obsidian Vault/_AI_ML_/python/python basics/Operators.md",
@@ -183,7 +184,6 @@
     "Obsidian Vault/_AI_ML_/python/Seaborn.md",
     "Obsidian Vault/_AI_ML_/Math/Stastics.md",
     "Obsidian Vault/_AI_ML_/Math",
-    "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
     "Obsidian Vault/_AI_ML_/AWS/What is cloud computing.md",
     "Obsidian Vault/_AI_ML_/AWS/Amazon S3.md",
     "Obsidian Vault/_AI_ML_/AWS/Databases & Analytics.md",

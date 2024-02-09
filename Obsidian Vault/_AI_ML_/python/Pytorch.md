@@ -9,6 +9,8 @@ tr.tensor([1,2,3])
 tr.tensor([[1,2],[3,4]])
 #get 3D array with desired Data-type
 tr.tensor([[[1,2],[4,3]],[[5,6],[8,7]]], dtype=torch.float)
+#get datatype of a tensor
+varable.dtype
 #get dimension of a tensor 
 variable.ndim
 #get tensor from numpy
@@ -38,6 +40,8 @@ if tr.cuda.is_available():
 variable[row,colum]
 #get concatination of more tensor variable dim(0->for rowbind, 1->columnbind)
 tr.cat([var1,var2,....], dim=1)
+#get transpose of a matrix
+matrix_variable.T
 #get multiplication of tensor
 variable.mul(varialbe)
 variable*variable
@@ -52,10 +56,18 @@ variable.squeeze(dim=0)
 variable.unsqueeze(dim=[1,0])
 #get the tensor element to ge permute
 tr.permute(variable, (2,0,1), dim=())
- 
-
-
-
+#get number of range
+tr.range(start,stop,step)
+#get reduce-randomness
+tr.manual_seed(variable_with_random)
+#get the access to GPU 
+tr.device('cuda')
+#get concate the tensors using stack
+tr.stack([vaiable_list],dim=[0->for row, 1->for column])
+#get your GPU version
+~nvidia.smi
+#get your device set 
+"cuda" if torch.cuda.is_available() else "cpu"
 
 ```
 **[Dtypes documentation](https://pytorch.org/docs/stable/tensors.html)**
