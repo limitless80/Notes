@@ -66,7 +66,7 @@ tr.device('cuda')
 tr.stack([vaiable_list],dim=[0->for row, 1->for column])
 #get your GPU version
 ~nvidia.smi
-#get your device set 
+#get your device-set 
 "cuda" if torch.cuda.is_available() else "cpu"
 
 ```
