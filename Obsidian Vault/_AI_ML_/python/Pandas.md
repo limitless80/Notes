@@ -19,6 +19,7 @@ df.tail(n) #list the last n files; defaults to 5
 df.index #lists the index
 df.columns #list the cloumns
 df.info #lists the column name and their datatypes
+df.value_counts()#create a series of vaues of different element in a column
 
 #basic Stastics
 #center tendencies
