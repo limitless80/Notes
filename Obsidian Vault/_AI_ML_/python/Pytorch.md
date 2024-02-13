@@ -67,7 +67,7 @@ tr.device('cuda')
 #get concate the tensors using stack
 tr.stack([vaiable_list],dim=[0->for row, 1->for column])
 #get your GPU version
-~nvidia.smi
+!nvidia.smi
 #get your device-set 
 "cuda" if torch.cuda.is_available() else "cpu"
 ----the above things are basic of pytorch----
