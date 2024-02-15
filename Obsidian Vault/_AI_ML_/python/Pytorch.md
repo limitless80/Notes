@@ -114,10 +114,22 @@ model_0.state_dict()
 #get prediction 
 with tr.inferencemode():
 	y_pred = model_0(x_test)
-
 ```
-
-
+*graph code to check the prediction*
+```python
+def barp(traindata=x_train, trainlabel=y_train, testdata=x_test, testlabel=y_test, prediction=None):
+    plt.figure(figsize=(10,5))
+    plt.scatter(traindata,trainlabel,c='g',s=3, label='train')
+    plt.scatter(testdata,testlabel,c='b',s=4, label='test')
+    if prediction != None:
+        plt.scatter(testdata, prediction,c='red', s=5,label='predicteed')
+        for i in range(len(prediction)):
+            plt.plot([testdata[i], testdata[i]], [prediction[i], testlabel[i]],                                                                                  c='black')
+    
+    plt.legend()
+    plt.grid()
+    return plt.show()
+```
 
 
 
