@@ -109,12 +109,6 @@ model_0 = Linearregression()
 #get the parameters-list 
 model_0.state_dict()
 ```
-*2.1 Check model initial prediction*
-```python
-#get prediction 
-with tr.inferencemode():
-	y_pred = model_0(x_test)
-```
 *graph code to check the prediction*
 ```python
 def barp(traindata=x_train, trainlabel=y_train, testdata=x_test, testlabel=y_test, prediction=None):
@@ -130,15 +124,58 @@ def barp(traindata=x_train, trainlabel=y_train, testdata=x_test, testlabel=y_tes
     plt.grid()
     return plt.show()
 ```
+*2.1 Get loss function and optimizer*
+```python
+#get loss function for this i have chossen L1Loss you can chosse in ->5
+loss_fn = nn.L1Loss() #it bassicaly reduce the loss between the test&predicted value in each ephoes
 
+#get optimizer
+optim = tr.optim.SGC(param=model_0, lr: ,momentum:)#refer ->6 for more information
+```
+*2.2 Get training loop*: ![](https://i.imgur.com/0YWVlYC.png)
+```python
+# Set the number of epochs (how many times the model will pass over the training data)
+epochs=int(input('enter the number of time a model should train'))
+for epoch in range(epochs):
+### Training
+# Put model in training mode (this is the default state of a model)
+    model_0.train()
+# 1. Forward pass on train data using the forward() method inside 
+    y_pred = model_0(X_train)
+# 2. Calculate the loss (how different are our models predictions to the ground truth)
+    loss = loss_fn(y_pred, y_train)
+# 3. Zero grad of the optimizer
+    optimizer.zero_grad()
+# 4. Loss backwards
+    loss.backward()
+# 5. Progress the optimizer
+    optimizer.step()
+```
+*3.Train and Evaluate the model*
+```python
+#inside the previous for loop
+model_0.eval()
 
+    with torch.inference_mode():
+      # 1. Forward pass on test data
+      test_pred = model_0(X_test)
 
+      # 2. Caculate loss on test data
+      test_loss = loss_fn(test_pred, y_test.type(torch.float)) # predictions come in torch.float datatype, so comparisons need to be done with tensors of the same type
 
-
+      # Print out what's happening
+      if epoch % 100 == 0:
+            epoch_count.append(epoch)
+            train_loss_values.append(loss.detach().numpy())
+            test_loss_values.append(test_loss.detach().numpy())
+            print(f"Epoch: {epoch} | MAE Train Loss: {loss} | MAE Test Loss:                                                                                   {test_loss} ")
+```
 
 
 1.**[Dtypes documentation](https://pytorch.org/docs/stable/tensors.html)**
 2.Indexing in Pytorch is similar to numpy 
 3.[Pytorch Basic GIT documentation](https://github.com/mrdbourke/pytorch-deep-learning/blob/main/00_pytorch_fundamentals.ipynb)
 4.[Parameter in nn](https://pytorch.org/docs/stable/generated/torch.nn.parameter.Parameter.html#parameter)
-5.
+5.[Loss functions](https://pytorch.org/docs/stable/nn.html#loss-functions)
+6.[Optimizer](https://pytorch.org/docs/stable/optim.html)
+7.
