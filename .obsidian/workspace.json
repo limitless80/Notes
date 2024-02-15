@@ -152,7 +152,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 344.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -167,9 +167,10 @@
   },
   "active": "b39f4fef417b6ca6",
   "lastOpenFiles": [
+    "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
+    "Obsidian Vault/_AI_ML_/python/Pytorch.md",
     "Obsidian Vault/_AI_ML_/python/Seaborn.md",
     "Obsidian Vault/_AI_ML_/python/Scikit-learn.md",
-    "Obsidian Vault/_AI_ML_/python/Pytorch.md",
     "Obsidian Vault/_AI_ML_/Math/Stastics.md",
     "Obsidian Vault/_AI_ML_/python/Pandas.md",
     "Obsidian Vault/_AI_ML_/Python.md",
@@ -183,7 +184,6 @@
     "SIJ/Untitled",
     "SIJ/Untitled.canvas",
     "SIJ",
-    "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
     "SIJ",
     "Machine Learning.md",
     "Obsidian Vault/_AI_ML_/python/numpy.md",

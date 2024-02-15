@@ -29,7 +29,11 @@ plt.scatter(x, height)
 #get histogram plot
 plt.hist(x, height)
 #get boxplot
-plt.boxplot(values)
+plt.boxplot(values)i
+#get grid
+plt.grid()
+#get plot shown in function
+plt.show()
 ```
 labels
 ![](https://i.imgur.com/BPT2iXU.png)
