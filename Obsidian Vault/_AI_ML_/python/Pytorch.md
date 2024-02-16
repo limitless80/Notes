@@ -111,7 +111,7 @@ model_0.state_dict()
 ```
 *graph code to check the prediction*
 ```python
-def barp(traindata=x_train, trainlabel=y_train, testdata=x_test, testlabel=y_test, prediction=None):
+def barplot(traindata=x_train, trainlabel=y_train, testdata=x_test, testlabel=y_test, prediction=None):
     plt.figure(figsize=(10,5))
     plt.scatter(traindata,trainlabel,c='g',s=3, label='train')
     plt.scatter(testdata,testlabel,c='b',s=4, label='test')
@@ -170,7 +170,17 @@ model_0.eval()
             test_loss_values.append(test_loss.detach().numpy())
             print(f"Epoch: {epoch} | MAE Train Loss: {loss} | MAE Test Loss:                                                                                   {test_loss} ")
 ```
+*4.Check you model with your testing data*
+```python
+with tr.inference_mode():
+	test_pred = model_0(x_test)
+#to check your parameter with model
+model_0.state_dict()
+```
+*5.Save the trained model using path*
+```
 
+```
 
 1.**[Dtypes documentation](https://pytorch.org/docs/stable/tensors.html)**
 2.Indexing in Pytorch is similar to numpy 
