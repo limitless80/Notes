@@ -178,8 +178,16 @@ with tr.inference_mode():
 model_0.state_dict()
 ```
 *5.Save the trained model using path*
-```
-
+```python
+from pathlib import Path
+#create models directory
+model = Path('models')
+model.mkdir(parent=True,exist_0k=True)
+#create a path directory
+model_name = 'pytorch-01'
+model_name_path = model/modle_name
+#save the model
+tr.save(obj=model_0.state_dict(),f=model_name_path)
 ```
 
 1.**[Dtypes documentation](https://pytorch.org/docs/stable/tensors.html)**
