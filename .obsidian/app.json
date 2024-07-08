@@ -1,3 +1,4 @@
 {
-  "vimMode": false
+  "vimMode": false,
+  "promptDelete": false
 }
