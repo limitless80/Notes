@@ -11,8 +11,13 @@
             "id": "ea7300bb157611d7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian Vault/_AI_ML_/python/Django/Create a Project and app.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
@@ -82,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Obsidian Vault/_AI_ML_/python/Django/Create a Project and app.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Obsidian Vault/_AI_ML_/python/Django/Create a Project and app.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Obsidian Vault/_AI_ML_/python/Django/Create a Project and app.md"
+              }
             }
           },
           {
@@ -159,14 +168,14 @@
   },
   "active": "ea7300bb157611d7",
   "lastOpenFiles": [
-    "Obsidian Vault/_AI_ML_/python/Django/Create a Project and app.md",
     "Obsidian Vault/_AI_ML_/python/Django/-DJANGO.md",
+    "Obsidian Vault/_AI_ML_/python/Django/Create a Project and app.md",
+    "Obsidian Vault/_AI_ML_/python/Pandas.md",
     "Obsidian Vault/_AI_ML_/python/Django",
     "Obsidian Vault/_AI_ML_/python/numpy.md",
     "Obsidian Vault/_AI_ML_/python/Seaborn.md",
     "Obsidian Vault/_AI_ML_/python/Scikit-learn.md",
     "Obsidian Vault/_AI_ML_/python/Pytorch.md",
-    "Obsidian Vault/_AI_ML_/python/Pandas.md",
     "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
     "Obsidian Vault/_AI_ML_/python/python basics/variables and data types.md",
     "Obsidian Vault/_AI_ML_/python/python basics/The Python interpreter.md",
