@@ -35,4 +35,6 @@ from django.http import HttpResponse
 def say(request):
     return render(request, 'hlo.html')	 
 ```
-     In the above code hlo.html is a file stored in the templates folder
+     -In the above code hlo.html is a file stored in the templates folder
+	-after following above steps add app name to the INSTALLED_APPS variable
+	 in the setting.py

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Django/Create a Project and app.md",
+                "file": "Obsidian Vault/_AI_ML_/python/python basics/variables and data types.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Django/Create a Project and app.md",
+                "file": "Obsidian Vault/_AI_ML_/python/python basics/variables and data types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Django/Create a Project and app.md",
+                "file": "Obsidian Vault/_AI_ML_/python/python basics/variables and data types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Django/Create a Project and app.md"
+                "file": "Obsidian Vault/_AI_ML_/python/python basics/variables and data types.md"
               }
             }
           },
@@ -168,8 +168,11 @@
   },
   "active": "ea7300bb157611d7",
   "lastOpenFiles": [
-    "Obsidian Vault/_AI_ML_/python/Django/-DJANGO.md",
+    "Obsidian Vault/_AI_ML_/python/python basics/The Python interpreter.md",
+    "Obsidian Vault/_AI_ML_/python/python basics/Operators.md",
     "Obsidian Vault/_AI_ML_/python/Django/Create a Project and app.md",
+    "Obsidian Vault/_AI_ML_/python/Django/-DJANGO.md",
+    "Obsidian Vault/_AI_ML_/python/Django/DATAMODEL.md",
     "Obsidian Vault/_AI_ML_/python/Pandas.md",
     "Obsidian Vault/_AI_ML_/python/Django",
     "Obsidian Vault/_AI_ML_/python/numpy.md",
@@ -178,8 +181,6 @@
     "Obsidian Vault/_AI_ML_/python/Pytorch.md",
     "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
     "Obsidian Vault/_AI_ML_/python/python basics/variables and data types.md",
-    "Obsidian Vault/_AI_ML_/python/python basics/The Python interpreter.md",
-    "Obsidian Vault/_AI_ML_/python/python basics/Operators.md",
     "Obsidian Vault/_AI_ML_/Math/Stastics.md",
     "Obsidian Vault/Cloud Computing/AWS/ECS, Lambda, Batch, Lightsail.md",
     "Obsidian Vault/Cloud Computing/AWS/ELB & ASG - Elastic Load Balancing & Auto Scaling Groups.md",
