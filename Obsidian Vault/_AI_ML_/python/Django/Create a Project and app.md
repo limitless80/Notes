@@ -21,7 +21,7 @@ $ python manage.py startapp polls
 from django.urls import path
 from . import views
 urlpatterns = [
-    path("web/", views.say)
+    path("web/", views.say),
 ]
 ```
 -To host any html doc in view module

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0303f5133ebc4d7e",
+        "id": "44a07314ac97a004",
         "type": "tabs",
         "children": [
           {
-            "id": "ea7300bb157611d7",
+            "id": "44d505e000cfaf79",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Django/Create a Project and app.md",
+                "file": "READ ME.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Django/Create a Project and app.md",
+                "file": "READ ME.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Django/Create a Project and app.md",
+                "file": "READ ME.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian Vault/_AI_ML_/python/Django/Create a Project and app.md"
+                "file": "READ ME.md"
               }
             }
           },
@@ -166,7 +166,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ea7300bb157611d7",
+  "active": "44d505e000cfaf79",
   "lastOpenFiles": [
     "READ ME.md",
     "Obsidian Vault/_AI_ML_/python/Django/Create a Project and app.md",
