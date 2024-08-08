@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+void quicksort(int arr[], int low, int high);
+int partition(int arr[], int low, int high);
+int main() 
+{ 
+    int a[10000], n; 
+    printf("Enter the number of elements in the array: "); 
+    scanf("%d", &n); 
+    printf("All the elements: "); 
+    srand(time(0)); 
+    for(int i = 0; i < n; i++) 
+    { 
+        a[i] = rand(); 
+        printf("%d ", a[i]); 
+    } 
+    clock_t start = clock();
+    quicksort(a, 0, n - 1); 
+    clock_t end = clock();
+    printf("\nAfter sorting\n"); 
+    for(int i = 0; i < n; i++) 
+        printf("%d ", a[i]); 
+    double time_taken = ((double)(end - start)) / CLOCKS_PER_SEC;
+    printf("\nTime taken to sort %d elements: %f seconds\n", n, time_taken);
+
+    return 0;
+}
+void quicksort(int arr[], int low, int high) {
+    if (low < high) {
+        int pi = partition(arr, low, high);
+        quicksort(arr, low, pi - 1);
+        quicksort(arr, pi + 1, high);
+    }
+}
+int partition(int arr[], int low, int high) {
+    int pivot = arr[high];
+    int i = (low - 1);
+    for (int j = low; j < high; j++) {
+        if (arr[j] < pivot) {
+            i++;
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+        }
+    }
+    int temp = arr[i + 1];
+    arr[i + 1] = arr[high];
+    arr[high] = temp;
+    return (i + 1);
+}
