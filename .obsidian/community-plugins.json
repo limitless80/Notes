@@ -1,14 +1,13 @@
 [
-  "obsidian-git",
   "table-editor-obsidian",
+  "obsidian-tasks-plugin",
   "calendar",
-  "obsidian-code-block-enhancer",
-  "code-emitter",
-  "cm-editor-syntax-highlight-obsidian",
-  "folder-note-plugin",
+  "obsidian-git",
   "obsidian-icon-folder",
   "obsidian-outliner",
+  "url-into-selection",
+  "folder-note-plugin",
   "obsidian-imgur-plugin",
-  "obsidian-tasks-plugin",
-  "url-into-selection"
+  "code-emitter",
+  "obsidian-tracker"
 ]

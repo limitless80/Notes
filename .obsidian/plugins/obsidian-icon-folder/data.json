@@ -1,9 +1,9 @@
 {
   "settings": {
-    "migrated": 4,
+    "migrated": 6,
     "iconPacksPath": ".obsidian/icons",
     "fontSize": 16,
-    "emojiStyle": "none",
+    "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
       "TiMathIntegral",
@@ -25,7 +25,13 @@
     "iconInFrontmatterEnabled": false,
     "iconsBackgroundCheckEnabled": false,
     "iconsInNotesEnabled": true,
-    "iconIdentifier": ":"
+    "iconIdentifier": ":",
+    "iconInTitlePosition": "above",
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsInLinksEnabled": true,
+    "lucideIconPackType": "native",
+    "debugMode": false
   },
   "Obsidian Vault/_AI_ML_/python/Matplotlib.md": "LiMap",
   "Obsidian Vault/_AI_ML_/python/Pytorch.md": "FabGripfire",
