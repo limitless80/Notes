@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-09-02.md",
+                "file": "_train-model.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024-09-02.md",
+                "file": "_train-model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024-09-02.md",
+                "file": "_train-model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-09-02.md"
+                "file": "_train-model.md"
               }
             }
           },
@@ -160,34 +160,35 @@
   },
   "active": "dea2d50b35b65fee",
   "lastOpenFiles": [
-    "_train-model.md",
     "2024-09-02.md",
+    "_train-model.md",
     "READ ME.md",
+    "Obsidian Vault/Cloud Computing/Google cloud.md",
+    "Obsidian Vault/Cloud Computing/Azure.md",
+    "Obsidian Vault/Cloud Computing/Azure/Main.md",
+    "Obsidian Vault/Cloud Computing/AWS/What is cloud computing.md",
+    "Obsidian Vault/Cloud Computing/AWS/IAM - Identity and Access Management.md",
+    "Obsidian Vault/Cloud Computing/AWS/ELB & ASG - Elastic Load Balancing & Auto Scaling Groups.md",
+    "Obsidian Vault/Cloud Computing/AWS/Amazon S3.md",
+    "Obsidian Vault/_AI_ML_/Python.md",
+    "Obsidian Vault/_AI_ML_/Maths for Machine learning.md",
+    "Obsidian Vault/_AI_ML_/Maths.md",
+    "Obsidian Vault/_AI_ML_/Machine Learning.md",
+    "Obsidian Vault/_AI_ML_/AML.md",
+    "Obsidian Vault/_AI_ML_/Math/Stastics.md",
+    "Obsidian Vault/_AI_ML_/python/Pytorch.md",
+    "Obsidian Vault/_AI_ML_/python/Scikit-learn.md",
+    "Obsidian Vault/_AI_ML_/python/Pandas.md",
+    "Obsidian Vault/_AI_ML_/python/numpy.md",
+    "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
     "Obsidian Vault/_AI_ML_/python/Django/Create a Project and app.md",
     "Obsidian Vault/_AI_ML_/python/Django/-DJANGO.md",
-    "Untitled.canvas",
-    "Untitled 1.canvas",
     "Obsidian Vault/_AI_ML_/python/Django/To create login and signup.md",
     "Obsidian Vault/_AI_ML_/python/Django/DATAMODEL.md",
-    "Obsidian Vault/_AI_ML_/AML.md",
-    "Obsidian Vault/_AI_ML_/python/Matplotlib.md",
-    "Obsidian Vault/Cloud Computing/AWS/Amazon S3.md",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
     "Obsidian Vault/Cloud Computing/AWS.md",
-    "Obsidian Vault/Cloud Computing/Azure.md",
-    "Obsidian Vault/Cloud Computing/Google cloud.md",
-    "Repository-project-source/README.md",
-    "Obsidian Vault/_AI_ML_/Math/Stastics.md",
-    "Obsidian Vault/_AI_ML_/python/python basics/variables and data types.md",
-    "Obsidian Vault/_AI_ML_/python/python basics/The Python interpreter.md",
-    "Obsidian Vault/_AI_ML_/python/python basics/Operators.md",
-    "Obsidian Vault/_AI_ML_/python/Pandas.md",
     "Obsidian Vault/_AI_ML_/python/Django",
-    "Obsidian Vault/_AI_ML_/python/numpy.md",
-    "Obsidian Vault/_AI_ML_/python/Seaborn.md",
-    "Obsidian Vault/_AI_ML_/python/Scikit-learn.md",
-    "Obsidian Vault/_AI_ML_/python/Pytorch.md",
-    "Obsidian Vault/Cloud Computing/AWS/ECS, Lambda, Batch, Lightsail.md",
-    "Obsidian Vault/Cloud Computing/AWS/ELB & ASG - Elastic Load Balancing & Auto Scaling Groups.md",
     "Operating System",
     "Obsidian Vault/Cloud Computing/Google Cloud",
     "Obsidian Vault/Cloud Computing/Azure",
