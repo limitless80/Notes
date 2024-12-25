@@ -1,0 +1,966 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='Select Gener' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;Adventure&quot;'>
+        <calculation class='tableau' formula='&quot;Adventure&quot;' />
+        <members>
+          <member value='&quot;Action&quot;' />
+          <member value='&quot;Adventure&quot;' />
+          <member value='&quot;Fighting&quot;' />
+          <member value='&quot;Misc&quot;' />
+          <member value='&quot;Platform&quot;' />
+          <member value='&quot;Puzzle&quot;' />
+          <member value='&quot;Racing&quot;' />
+          <member value='&quot;Role-Playing&quot;' />
+          <member value='&quot;Shooter&quot;' />
+          <member value='&quot;Simulation&quot;' />
+          <member value='&quot;Sports&quot;' />
+          <member value='&quot;Strategy&quot;' />
+        </members>
+      </column>
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[Parameter 1]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Action&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Fighting&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Misc&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+    </datasource>
+    <datasource caption='vgsales_1' inline='true' name='federated.159cweq0yl1uc91fe1vin0ic5npi' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='vgsales_1' name='textscan.0lhe5p50cf09mv150rctm0z0erab'>
+            <connection class='textscan' directory='C:/Users/yoge8/OneDrive/Desktop/vgsales.csv' filename='vgsales_1.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.0lhe5p50cf09mv150rctm0z0erab' name='vgsales_1.csv' table='[vgsales_1#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Rank' ordinal='0' />
+            <column datatype='string' name='Name' ordinal='1' />
+            <column datatype='string' name='Platform' ordinal='2' />
+            <column datatype='integer' name='Year' ordinal='3' />
+            <column datatype='string' name='Genre' ordinal='4' />
+            <column datatype='string' name='Publisher' ordinal='5' />
+            <column datatype='real' name='NA_Sales' ordinal='6' />
+            <column datatype='real' name='EU_Sales' ordinal='7' />
+            <column datatype='real' name='JP_Sales' ordinal='8' />
+            <column datatype='real' name='Other_Sales' ordinal='9' />
+            <column datatype='real' name='Global_Sales' ordinal='10' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[vgsales_1.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Rank</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Rank]</local-name>
+            <parent-name>[vgsales_1.csv]</parent-name>
+            <remote-alias>Rank</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[vgsales_1.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Platform</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Platform]</local-name>
+            <parent-name>[vgsales_1.csv]</parent-name>
+            <remote-alias>Platform</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[vgsales_1.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Genre</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Genre]</local-name>
+            <parent-name>[vgsales_1.csv]</parent-name>
+            <remote-alias>Genre</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Publisher</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Publisher]</local-name>
+            <parent-name>[vgsales_1.csv]</parent-name>
+            <remote-alias>Publisher</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NA_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NA_Sales]</local-name>
+            <parent-name>[vgsales_1.csv]</parent-name>
+            <remote-alias>NA_Sales</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EU_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[EU_Sales]</local-name>
+            <parent-name>[vgsales_1.csv]</parent-name>
+            <remote-alias>EU_Sales</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JP_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[JP_Sales]</local-name>
+            <parent-name>[vgsales_1.csv]</parent-name>
+            <remote-alias>JP_Sales</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Other_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Other_Sales]</local-name>
+            <parent-name>[vgsales_1.csv]</parent-name>
+            <remote-alias>Other_Sales</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Global_Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Global_Sales]</local-name>
+            <parent-name>[vgsales_1.csv]</parent-name>
+            <remote-alias>Global_Sales</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Calculation1' datatype='real' name='[Calculation_2086011080628940800]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Global_Sales]-[EU_Sales]' />
+      </column>
+      <column caption='Calculation2' datatype='real' name='[Calculation_2086011080630321153]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF [Genre] = [Parameters].[Parameter 1] THEN [Global_Sales] ELSE 0 END' />
+      </column>
+      <column caption='EU Sales' datatype='real' name='[EU_Sales]' role='measure' type='quantitative' />
+      <column caption='Global Sales' datatype='real' name='[Global_Sales]' role='measure' type='quantitative' />
+      <column caption='JP Sales' datatype='real' name='[JP_Sales]' role='measure' type='quantitative' />
+      <column caption='NA Sales' datatype='real' name='[NA_Sales]' role='measure' type='quantitative' />
+      <column caption='Other Sales' datatype='real' name='[Other_Sales]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <column caption='vgsales_1.csv' datatype='table' name='[__tableau_internal_object_id__].[vgsales_1.csv_D0705599D475446A9821062382148710]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/yoge8/AppData/Local/Temp/TableauTemp/#TableauTemp_0o0ekel077iu9119hpgcx1vue0ia.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='12/23/2024 08:59:01 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Rank</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Rank]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Rank</remote-alias>
+              <ordinal>0</ordinal>
+              <family>vgsales_1.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16598</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>vgsales_1.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7054</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Platform</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Platform]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Platform</remote-alias>
+              <ordinal>2</ordinal>
+              <family>vgsales_1.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>23</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>3</ordinal>
+              <family>vgsales_1.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>53</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Genre</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Genre]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Genre</remote-alias>
+              <ordinal>4</ordinal>
+              <family>vgsales_1.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Publisher</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Publisher]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Publisher</remote-alias>
+              <ordinal>5</ordinal>
+              <family>vgsales_1.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>444</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NA_Sales</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[NA_Sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NA_Sales</remote-alias>
+              <ordinal>6</ordinal>
+              <family>vgsales_1.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>349</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>EU_Sales</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[EU_Sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EU_Sales</remote-alias>
+              <ordinal>7</ordinal>
+              <family>vgsales_1.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>246</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>JP_Sales</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[JP_Sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>JP_Sales</remote-alias>
+              <ordinal>8</ordinal>
+              <family>vgsales_1.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>191</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Other_Sales</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Other_Sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Other_Sales</remote-alias>
+              <ordinal>9</ordinal>
+              <family>vgsales_1.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>111</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Global_Sales</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Global_Sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Global_Sales</remote-alias>
+              <ordinal>10</ordinal>
+              <family>vgsales_1.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>487</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[vgsales_1.csv_D0705599D475446A9821062382148710]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Rank' />
+        <field-sort-custom-order field='Name' />
+        <field-sort-custom-order field='Platform' />
+        <field-sort-custom-order field='Year' />
+        <field-sort-custom-order field='Genre' />
+        <field-sort-custom-order field='Publisher' />
+        <field-sort-custom-order field='NA_Sales' />
+        <field-sort-custom-order field='EU_Sales' />
+        <field-sort-custom-order field='Calculation_2086011080630321153' />
+        <field-sort-custom-order field='JP_Sales' />
+        <field-sort-custom-order field='Other_Sales' />
+        <field-sort-custom-order field='Global_Sales' />
+        <field-sort-custom-order field='Calculation_2086011080628940800' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <datasource-dependencies datasource='Parameters'>
+        <column caption='Select Gener' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;Adventure&quot;'>
+          <calculation class='tableau' formula='&quot;Adventure&quot;' />
+        </column>
+      </datasource-dependencies>
+      <object-graph>
+        <objects>
+          <object caption='vgsales_1.csv' id='vgsales_1.csv_D0705599D475446A9821062382148710'>
+            <properties context=''>
+              <relation connection='textscan.0lhe5p50cf09mv150rctm0z0erab' name='vgsales_1.csv' table='[vgsales_1#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='Rank' ordinal='0' />
+                  <column datatype='string' name='Name' ordinal='1' />
+                  <column datatype='string' name='Platform' ordinal='2' />
+                  <column datatype='integer' name='Year' ordinal='3' />
+                  <column datatype='string' name='Genre' ordinal='4' />
+                  <column datatype='string' name='Publisher' ordinal='5' />
+                  <column datatype='real' name='NA_Sales' ordinal='6' />
+                  <column datatype='real' name='EU_Sales' ordinal='7' />
+                  <column datatype='real' name='JP_Sales' ordinal='8' />
+                  <column datatype='real' name='Other_Sales' ordinal='9' />
+                  <column datatype='real' name='Global_Sales' ordinal='10' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='vgsales_1' name='federated.159cweq0yl1uc91fe1vin0ic5npi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.159cweq0yl1uc91fe1vin0ic5npi'>
+            <column caption='EU Sales' datatype='real' name='[EU_Sales]' role='measure' type='quantitative' />
+            <column caption='Global Sales' datatype='real' name='[Global_Sales]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[EU_Sales]' derivation='Sum' name='[sum:EU_Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Global_Sales]' derivation='Sum' name='[sum:Global_Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.159cweq0yl1uc91fe1vin0ic5npi].[sum:Global_Sales:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.159cweq0yl1uc91fe1vin0ic5npi].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.159cweq0yl1uc91fe1vin0ic5npi].[sum:EU_Sales:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.159cweq0yl1uc91fe1vin0ic5npi].[:Measure Names]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.159cweq0yl1uc91fe1vin0ic5npi].[sum:Global_Sales:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.159cweq0yl1uc91fe1vin0ic5npi].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>([federated.159cweq0yl1uc91fe1vin0ic5npi].[sum:EU_Sales:qk] + [federated.159cweq0yl1uc91fe1vin0ic5npi].[sum:Global_Sales:qk])</rows>
+        <cols>[federated.159cweq0yl1uc91fe1vin0ic5npi].[none:Year:qk]</cols>
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.159cweq0yl1uc91fe1vin0ic5npi].[none:Year:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.159cweq0yl1uc91fe1vin0ic5npi].[sum:Global_Sales:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.159cweq0yl1uc91fe1vin0ic5npi].[none:Year:qk]</field>
+                  <field>[federated.159cweq0yl1uc91fe1vin0ic5npi].[sum:Global_Sales:qk]</field>
+                  <field>[federated.159cweq0yl1uc91fe1vin0ic5npi].[:Measure Names]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>2008</value>
+                <value>678.89999999999588</value>
+                <value>&quot;[federated.159cweq0yl1uc91fe1vin0ic5npi].[sum:Global_Sales:qk]&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='0' text-width='180'>
+            <formatted-text>
+              <run fontcolor='#787878'>Year: </run>
+              <run bold='true'><![CDATA[<[federated.159cweq0yl1uc91fe1vin0ic5npi].[none:Year:qk]>]]></run>
+              <run>Æ&#10;</run>
+              <run fontcolor='#787878'>EU Sales: </run>
+              <run bold='true'><![CDATA[<[federated.159cweq0yl1uc91fe1vin0ic5npi].[sum:EU_Sales:qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='2008.2022058823529'>
+                  <node-reference>
+                    <axis>[federated.159cweq0yl1uc91fe1vin0ic5npi].[none:Year:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='198.19881570780927'>
+                  <node-reference>
+                    <axis>[federated.159cweq0yl1uc91fe1vin0ic5npi].[sum:EU_Sales:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='130' y='-20' />
+          </annotation>
+          <annotation class='point' id='1' mark-position='1' pullback='0' text-width='180'>
+            <formatted-text>
+              <run fontalignment='0' fontcolor='#787878'>Year: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.159cweq0yl1uc91fe1vin0ic5npi].[none:Year:qk]>]]></run>
+              <run fontalignment='0'>Æ&#10;</run>
+              <run fontalignment='0' fontcolor='#787878'>EU Sales: </run>
+              <run bold='true' fontalignment='0'><![CDATA[<[federated.159cweq0yl1uc91fe1vin0ic5npi].[sum:EU_Sales:qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='axis'>
+                <x-coord axis-value='2008.0753676470588'>
+                  <node-reference>
+                    <axis>[federated.159cweq0yl1uc91fe1vin0ic5npi].[none:Year:qk]</axis>
+                  </node-reference>
+                </x-coord>
+                <y-coord axis-value='196.34252683564739'>
+                  <node-reference>
+                    <axis>[federated.159cweq0yl1uc91fe1vin0ic5npi].[sum:EU_Sales:qk]</axis>
+                  </node-reference>
+                </y-coord>
+                <page-reference />
+              </visual-coordinate>
+            </point>
+            <body x='130' y='-20' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{0DA5ED5E-157F-4369-9B0E-5537C7FAB235}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='vgsales_1' name='federated.159cweq0yl1uc91fe1vin0ic5npi' />
+          </datasources>
+          <datasource-dependencies datasource='federated.159cweq0yl1uc91fe1vin0ic5npi'>
+            <column caption='Calculation1' datatype='real' name='[Calculation_2086011080628940800]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Global_Sales]-[EU_Sales]' />
+            </column>
+            <column caption='EU Sales' datatype='real' name='[EU_Sales]' role='measure' type='quantitative' />
+            <column caption='Global Sales' datatype='real' name='[Global_Sales]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2086011080628940800]' derivation='Sum' name='[sum:Calculation_2086011080628940800:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Global_Sales]' derivation='Sum' name='[sum:Global_Sales:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.159cweq0yl1uc91fe1vin0ic5npi].[sum:Calculation_2086011080628940800:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.159cweq0yl1uc91fe1vin0ic5npi].[sum:Global_Sales:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#e15759' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.159cweq0yl1uc91fe1vin0ic5npi].[sum:Calculation_2086011080628940800:qk] + [federated.159cweq0yl1uc91fe1vin0ic5npi].[sum:Global_Sales:qk])</rows>
+        <cols>[federated.159cweq0yl1uc91fe1vin0ic5npi].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{575CA189-9D1D-4021-B46F-E7FE35A4E62F}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='vgsales_1' name='federated.159cweq0yl1uc91fe1vin0ic5npi' />
+            <datasource name='Parameters' />
+          </datasources>
+          <datasource-dependencies datasource='Parameters'>
+            <column caption='Select Gener' datatype='string' name='[Parameter 1]' param-domain-type='list' role='measure' type='nominal' value='&quot;Adventure&quot;'>
+              <calculation class='tableau' formula='&quot;Adventure&quot;' />
+            </column>
+          </datasource-dependencies>
+          <datasource-dependencies datasource='federated.159cweq0yl1uc91fe1vin0ic5npi'>
+            <column caption='Calculation2' datatype='real' name='[Calculation_2086011080630321153]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF [Genre] = [Parameters].[Parameter 1] THEN [Global_Sales] ELSE 0 END' />
+            </column>
+            <column datatype='string' name='[Genre]' role='dimension' type='nominal' />
+            <column caption='Global Sales' datatype='real' name='[Global_Sales]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2086011080630321153]' derivation='Sum' name='[sum:Calculation_2086011080630321153:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.159cweq0yl1uc91fe1vin0ic5npi].[sum:Calculation_2086011080630321153:qk]</rows>
+        <cols>[federated.159cweq0yl1uc91fe1vin0ic5npi].[none:Year:qk]</cols>
+      </table>
+      <simple-id uuid='{9E8CC676-F2EB-4A39-A432-C47E98208FDA}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.159cweq0yl1uc91fe1vin0ic5npi].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{938380C4-88CA-4DE3-BABE-4F924A7ED4C8}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{44888781-73DA-4EF1-A8C6-D6FD5DD32380}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='compact' param='[Parameters].[Parameter 1]' type='parameter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.159cweq0yl1uc91fe1vin0ic5npi].[none:Year:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{B6E8B619-4869-4AF4-B4A0-83DFBCC3E7A1}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 3' width='192'>
+      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
+      S5p//M2T/NE3TuyIE14l2ZYeIBFeYGIuREfXXkwb5GNWmmWngDtPZvno9iixZIbLx9o4e2gP
+      +9dZvy+GWCrDxHyEb1zoLnhte4OLdFZmPhgvyUP/6sMJapwWjm9yPK7VLPoDLacdFsN2xv2/
+      TJRdAEo2yb0Hg3R27uH2vSEunjnCTj9DMlmZoXEfH98b486TWZxWI68fbcNlM3FtYJJ/vP6U
+      g221nD/SwqXedowGbdFPvoVQgnQ2V9S2e6PHistqZOCZr2gBpLM5Pro7zm+/dWTTaYIajYTV
+      bMBmMmxLQvurTNkFkM2EsLo6aG7Zg3f6HhlVRbdkcJrJZEilUmv8JvP5UMqyjCRJaJ5bspv2
+      RXjv6lNKGUTMBeJMeUMc21vHH32tl5P7G5GkxR7h0tFmRqaDXOuf5Ps/u8fffTpER6OLF1cJ
+      VXXxP9ILwwd/JElzjRUtMslkcunaRTNbjUazSkiKotDZ5OS9K0PcfjxdVN0j8QwSKie6akkm
+      k6tMhp//XDYqU1VV9njMGLobkNQcyWRu5fV838XyPZbLWO+72Gxd8r2+XJdcLrdSj3xlF6pT
+      sWVLaplTldLxOQaHkxzvbeXejXv0nDuNbqmIbDaLJElrnq7LVSjm9XA8zT/dGEYpodZNNTZ6
+      Ouuoc1lWeqP17h1LZRka9zM8HVhzZlW+OkqSxGuHmulqdhW8VlVVFiIpPvxitPjKA2e6G1et
+      xmx0/3yfoaIunpZiWDonq9Bnvvz/5R9XKd9RoboUej2XW23mu51ll10ASi7NzWvXsLkcxFUH
+      rx3bj7RUAVmWy+KunMlkMBi2ljdaKjvpDr0T7S3GHXo7UFWVbDZbsfaW/dvU6IycOnuWUDSF
+      p8az4+N/gWAjtuVxZjBZqTft3vgRwe7h5VmjFAh2ACEAQVUjBCCoaiq6pLG8EvSy3KfUMnei
+      3OWyK13uTpyGuUwl21tRAby4kbFZdnt8yovsRHt38jOuZNkVE4C0dFpkOVAUpeLr0/l2TitV
+      drW0d7mnrVS5Zd8IqwQ7cV5vvp3ESpVdLe2tdLmvpAAEgnIhVoEEVc1LmxEW9k7w6dUbHH/r
+      WzQaE9y4eZtsTqZx/wnq8XF3eB6NKtNz5hKR0TtMhVOYnC1cONm9pfCLqeE+Prk/xu9++xsk
+      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
+      AABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
