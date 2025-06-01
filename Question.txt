@@ -1,0 +1,28 @@
+1 Develop a program to Load a dataset and select one numerical column. Compute mean, median, mode,
+standard deviation, variance, and range for a given numerical column in a dataset. Generate a histogram and
+boxplot to understand the distribution of the data. Identify any outliers in the data using IQR. Select a
+categorical variable from a dataset. Compute the frequency of each category and display it as a bar chart or
+pie chart.
+2 Develop a program to Load a dataset with at least two numerical columns (e.g., Iris, Titanic). Plot a scatter
+plot of two variables and calculate their Pearson correlation coefficient. Write a program to compute the
+covariance and correlation matrix for a dataset. Visualize the correlation matrix using a heatmap to know
+which variables have strong positive/negative correlations.
+3 Develop a program to implement Principal Component Analysis (PCA) for reducing the dimensionality of
+the Iris dataset from 4 features to 2.
+4 Develop a program to load the Iris dataset. Implement the k-Nearest Neighbors (k-NN) algorithm for
+classifying flowers based on their features. Split the dataset into training and testing sets and evaluate the
+model using metrics like accuracy and F1-score. Test it for different values of 𝑘 (e.g., k=1,3,5) and evaluate
+the accuracy. Extend the k-NN algorithm to assign weights based on the distance of neighbors (e.g.,
+𝑤𝑒𝑖𝑔ℎ𝑡=1/𝑑2 ). Compare the performance of weighted k-NN and regular k-NN on a synthetic or real-world
+dataset.
+6 Implement the non-parametric Locally Weighted Regression algorithm in order to fit data points. Select
+appropriate data set for your experiment and draw graphs.
+7 Develop a program to demonstrate the working of Linear Regression and Polynomial Regression. Use
+Boston Housing Dataset for Linear Regression and Auto MPG Dataset (for vehicle fuel efficiency prediction)
+for Polynomial Regression.
+8 Develop a program to load the Titanic dataset. Split the data into training and test sets. Train a decision tree
+classifier. Visualize the tree structure. Evaluate accuracy, precision, recall, and F1-score.
+9 Develop a program to implement the Naive Bayesian classifier considering Iris dataset for training. Compute
+the accuracy of the classifier, considering the test data.
+10 Develop a program to implement k-means clustering using Wisconsin Breast Cancer data set and visualize
+the clustering result. 
